@@ -65,6 +65,7 @@ Primary Text : #212121;
 Light Green : #8BC34A;
 Dark Gray: #757575;
 Light Gray: #BDBDBD;
+White: #FFFFFF;
 */
 
 /************************
@@ -78,7 +79,7 @@ Light Gray: #BDBDBD;
 
 /* Header styles */ 
 header {
-	background: #757575;
+	background: #8BC34A;
 
 }
 
@@ -87,7 +88,7 @@ header {
 	width:100px;
 	padding: 15px;
 	box-sizing: border-box;
-	background: #1976D2;
+	background: #8BC34A;
 	/*box-sizing border box makes the width adjust according to padding*/
 }
 
@@ -108,7 +109,7 @@ header {
 	box-sizing: border-box;
 	width: 33%; 
 	float: left;
-	background: #F44336;
+	background: #B3E5FC;
 }
 
 .main-nav a {
@@ -121,7 +122,7 @@ header {
 .ham {
 	top:100px;
 	float: right;
-	background: #BBDEFB;
+	background: #8BC34A;
 }
 
 .mobile-nav {
@@ -138,7 +139,7 @@ header {
 	box-sizing: border-box;
 	width:100%;
 	padding: 10px;
-	background: #FFEB3B;
+	background: #8BC34A;
 	border-bottom: 2px solid #121212;
 }
 
@@ -148,14 +149,14 @@ header {
 
 .site-content {
 
-	background: #BBDEFB;
+	background: #FFFFFF;
 	padding: 15px;
 	width:100%;
 	box-sizing: border-box;
 }
 
 .site-sidebar {
-	background: #1976D2;
+	background: #FFFFFF;
 	padding: 15px;
 	width: 100%;
 	box-sizing: border-box;
@@ -163,29 +164,29 @@ header {
 
 /*footer styles*/
 footer {
-	background: #F44336;
+	background: #8BC34A;
 	padding: 15px;
 	width: 100%;
 	box-sizing: border-box;
 }
 
 .company-info {
-	background: #1976D2;
+	background: #B3E5FC;
 }
 
 .links {
-	background: #FFEB3B;
+	background: #8BC34A;
 }
 
 .social-media {
-	background: #757575;
+	background: #8BC34A;
 }
 
 
 /*This media query will only target the tablet size*/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 	header {
-		background: #FFEB3B;
+		background: #FFFFFF;
 	}
 }
 
@@ -252,7 +253,7 @@ footer {
 /*The following media query targets the screen sizes that are less than 768px*/
 @media only screen and (max-width: 768px) {
 	footer {
-		background: #FFEB3B;
+		background: #FFFFFF;
 	}
 
 }
