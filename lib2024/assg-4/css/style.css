@@ -94,7 +94,7 @@ header {
 	display: none;
 	/*max width is used in fluid layout to restrict the width of elements that are set to 100% width*/
 	/*This is to make sure the content remains in the readable area for screen sizes that are larger than a tablet*/
-	max-width: 600px;
+	max-width: 960px;
 }
 
 .desktop-nav ul {
