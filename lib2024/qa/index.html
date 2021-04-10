@@ -182,6 +182,59 @@
 				Hello? How are you? It's sunny today. It is very warm today. I need to go get some sunscreen. <span class="c">Boat</span> <span class="c">Kayak</span> Maybe we should go for a bike ride? Would you rather go to beach instead?
 			</p>
 		</li>
+		<!-- Qus 14 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS keyframes block called "spin"that rotates an element.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				<style>
+					div {
+						width: 100px;
+						height: 100px;
+						background: red;
+						position: relative;
+						animation: spin 5s linear;
+					}
+					@keyframes spin {
+						0% {top: 0px;}
+						25% {top: 200px;}
+						50% {top: 100px;}
+						75% {top: 200px;}
+						100% {top: 0px;}
+					}
+				</style>
+			</p>
+		</li>
+		<!-- Qus 15 -->
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS animation block to rotate an element that has the following properties:
+				-class "rotate-me"
+				-It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				<style>
+					div {
+						width: 100px;
+						height: 100px;
+						background-color: blue;
+						animation-name: spin;
+						animation-duration: 0.5s;
+						animation-iteration-count: 5;
+						animation-direction: normal;
+						animation-timing-function: linear;
+						animation-fill-mode: forwards;
+
+
+					}
+				</style>
+			</p>
+		</li>
   </ol>
 </body>
 </html>
