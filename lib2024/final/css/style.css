@@ -77,7 +77,7 @@ table {
 
 /* Header styles */ 
 header {
-	background: #757575;
+	background: #FFFFFF;
 
 }
 
@@ -130,7 +130,7 @@ header {
 	box-sizing: border-box;
 	padding: 10px;
 	border-left: 2px solid #444;
-	background: #F44336;
+	background: #5F9EA0;
 }
 
 /* Target the first child and remove border-left from the a tag contained in that li*/
@@ -144,7 +144,7 @@ header {
 
 .desktop-nav li .sub-nav li a {
 
-	background: #BBDEFB;
+	background: #5F9EA0;
 	border-left: none;
 	border-bottom: 2px solid #444;
 }
@@ -166,7 +166,7 @@ header {
 
 .ham {
 	float: right;
-	/*background: #BBDEFB;*/
+	/*background: #5F9EA0;*/
 }
 
 .ham {
@@ -218,66 +218,24 @@ header {
 	width:100%;
 	padding: 10px;
 	background: lightgreen;
-	border-bottom: 2px solid #121212;
+	border-bottom: 2px solid #696969;
 
 }
 
-
-/******Image Gallery ****/
-
-.image-gallery-overlay{
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.8);
-	z-index: 100;
-	display: none;
-}
-
-.image-gallery .img-slide-thumb img {
-	opacity: 0.5;
-	transition: all ease 0.3s;
-}
-
-/*making the image slide thumb active class and giving it opacity:1; */
-.image-gallery .img-slide-thumb.img-slide-thumb-active img, 
-.image-gallery .img-slide-thumb:hover img{
-	opacity: 1;
-	/*box-shadow: vertical-offset horizontal offset blur color*/
-	box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
-	cursor: pointer;
-}
-
-/*hiding all the image slides*/
-.img-slide {
-	display: none;
-	position: absolute;
-	width: 90%;
-	max-height: 90%;
-	overflow: hidden;
-	left:5%;
-	top: 5%;
-	border: 1px solid #f1f1f1;
-}
-
-/*showing the active image slide*/
-.img-slide.active {
-	display: block;
-}
 
 
 /*main content styles*/
 
 .site-content {
 
-	background: #BBDEFB;
+	background: #FFFFFF;
 	padding: 15px;
 	width:100%;
 	box-sizing: border-box;
 }
 
 .site-sidebar {
-	background: #1976D2;
+	background: #5F9EA0;
 	padding: 15px;
 	width: 100%;
 	box-sizing: border-box;
@@ -293,28 +251,28 @@ header {
 
 /*footer styles*/
 footer {
-	background: #F44336;
+	background: #696969;
 	padding: 15px;
 	width: 100%;
 	box-sizing: border-box;
 }
 
 .company-info {
-	background: #1976D2;
+	background: #696969;
 }
 
 .links {
-	background: #FFEB3B;
+	background: #696969;
 }
 
 .social-media {
-	background: #757575;
+	background: #696969;
 }
 
 /*This media query will only target the tablet size*/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 	header {
-		background: #FFEB3B;
+		background: #FFFFFF;
 	}
 }
 
@@ -413,6 +371,6 @@ footer {
 /*The following media query targets the screen sizes that are less than 768px*/
 @media only screen and (max-width: 768px) {
 	footer {
-		background: #FFEB3B;
+		background: #FFFFFF;
 	}
 }
